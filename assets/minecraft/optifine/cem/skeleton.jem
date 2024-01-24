@@ -1,6 +1,6 @@
 {
 	"credit": "Made with Blockbench",
-	"texture": "textures/entity/skeleton/skeleton.png",
+	"texture": "random/entity/skeleton/skeleton3.png",
 	"textureSize": [64, 128],
 	"models": [
 		{
@@ -22,7 +22,16 @@
 					"invertAxis": "xy",
 					"translate": [0, 24, 0],
 					"boxes": [
-						{"coordinates": [-5, 0, -4, 10, 8, 8], "textureOffset": [0, 34]},
+						{
+							"coordinates": [-5, 0, -4, 10, 8, 8],
+							"uvNorth": [8, 42, 18, 50],
+							"uvEast": [0, 42, 8, 50],
+							"uvSouth": [26, 42, 36, 50],
+							"uvWest": [18, 42, 26, 50],
+							"uvUp": [18, 42, 8, 34],
+							"uvDown": [28, 34, 18, 42],
+							"sizeAdd": -0.002
+						},
 						{"coordinates": [-3, 0, -5, 1, 2, 1], "textureOffset": [0, 34], "sizeAdd": -0.001},
 						{"coordinates": [2, 0, -5, 1, 2, 1], "textureOffset": [0, 34], "sizeAdd": -0.001},
 						{"coordinates": [-2, 0, -5, 4, 4, 1], "textureOffset": [29, 35], "sizeAdd": 0.001}
@@ -55,6 +64,38 @@
 					"boxes": [
 						{"coordinates": [-4, 0, -4, 8, 10, 8], "textureOffset": [0, 52]},
 						{"coordinates": [-1, -1, -6, 2, 4, 2], "textureOffset": [34, 64], "sizeAdd": 0.001}
+					]
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "skeleton_h",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"boxes": [
+						{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [32, 0], "sizeAdd": 0.5}
+					]
+				},
+				{
+					"id": "piglin_h",
+					"invertAxis": "xy",
+					"translate": [0, 24, 0],
+					"boxes": [
+						{"coordinates": [-5, 0, -4, 10, 8, 8], "textureOffset": [0, 96], "sizeAdd": 0.5}
+					]
+				},
+				{
+					"id": "villager_h",
+					"invertAxis": "xy",
+					"translate": [0, 26, 0],
+					"boxes": [
+						{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [30, 75], "sizeAdd": 0.5}
 					]
 				}
 			]
