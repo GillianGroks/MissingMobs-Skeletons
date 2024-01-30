@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench by Gillian.Groks",
+	"texture": "textures/entity/skeleton/head_wither_skeleton/head_wither_skeleton.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "wither_skeleton",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"boxes": [
+						{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
